@@ -322,6 +322,10 @@ a {}
 
 
 .project-card {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
         width: calc((100% - 48px) / 3);
 }
 
@@ -347,12 +351,7 @@ a {}
         color: #434455;
 }
 
-.portfolio-list {
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 24px;
-        row-gap: 48px;
-}
+.portfolio-list {}
 
 .portfolio-info {
         padding: 32px 16px;
@@ -371,9 +370,7 @@ a {}
 
 .footer-logo {
         display: inline-block;
-        padding-top: 100px;
-        padding-left: 156px;
-        padding-bottom: 16px;
+
         margin-bottom: 16px;
 }
 
