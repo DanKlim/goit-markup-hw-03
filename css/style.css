@@ -364,15 +364,16 @@ a {}
         margin-bottom: 8px;
 }
 
+
+
+
+/* Footer */
 .page-footer {
         background-color: #2e2f42;
         padding: 100px 0;
 }
 
-
-/* Footer */
-
-.logo.footer-link {
+.footer-link {
         display: inline-block;
         margin-bottom: 16px;
 }
