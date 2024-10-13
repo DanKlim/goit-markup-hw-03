@@ -71,8 +71,11 @@ h3 {
 }
 
 .main-nav {
+        display: flex;
         gap: 40px;
         padding: 24px 0;
+        width: calc((100% - 72px) / 4);
+        margin-bottom: 8px;
 }
 
 .logo {
@@ -95,7 +98,9 @@ h3 {
 
 .address-list {
         display: flex;
+        padding: 24px 0;
         gap: 40px;
+
 }
 
 
@@ -232,6 +237,7 @@ a {}
 
 .team-section {
         background-color: #F4F4FD;
+        padding: 188px 0;
 }
 
 .team-title {
@@ -241,12 +247,14 @@ a {}
 .team-list {
         display: flex;
         gap: 24px;
-        width: calc((100% - 72px) / 4);
-        border-radius: 0px 0px 4px 4px;
+
+
 }
 
 .team-member {
         background-color: #FFFFFF;
+        width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
 }
 
 .card-list {
@@ -258,7 +266,9 @@ a {}
         margin-bottom: 8px;
 }
 
-.team-role {}
+.team-role {
+        text-align: center;
+}
 
 .portfolio {
         background-color: #F4F4FD;
@@ -282,6 +292,7 @@ a {}
 .project-card {}
 
 .portfolio-subtitle {
+        margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
 
@@ -303,6 +314,10 @@ a {}
 }
 
 .portfolio-info {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
@@ -321,4 +336,8 @@ a {}
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+}
+
+p.page-footer.container {
+        display: inline-block;
 }
