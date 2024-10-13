@@ -368,7 +368,7 @@ a {}
 /* Footer */
 .page-footer {
         background-color: #2e2f42;
-        padding: 100px 0;
+        /* padding: 100px 0; */
 }
 
 /* .footer-logo {
@@ -394,4 +394,5 @@ a {}
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
 }
