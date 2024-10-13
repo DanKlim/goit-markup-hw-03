@@ -368,7 +368,7 @@ a {}
 /* Footer */
 .page-footer {
         background-color: #2e2f42;
-        /* padding: 100px 0; */
+        padding: 100px 0;
 }
 
 /* .footer-logo {
@@ -381,7 +381,10 @@ a {}
         color: #4d5ae5;
 } */
 
-.footer-link {}
+.footer-link {
+        display: inline-block;
+        margin-bottom: 16px;
+}
 
 .logo-studio-footer {
         color: #f4f4fd;
